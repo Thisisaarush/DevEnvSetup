@@ -1,0 +1,23 @@
+[user]
+  name = Aarush Tanwar
+  email = tanwaraarush007@gmail.com
+
+[github]
+  user = thisisaarush
+
+[init]
+	defaultBranch = master
+
+[core]
+  editor = "nvim"
+
+[alias]
+  co = checkout
+  ci = commit
+  br = branch
+  st = status
+  d = diff
+  hist = log --pretty=format:\"%h %cd [%cn] %s%d\" --graph --date=relative --decorate --all
+  llog = log --graph --name-status --pretty=format:\"%h (%cd) %an %s %d\" --date=relative
+  ps = "!git push origin $(git rev-parse --abbrev-ref HEAD)"
+  pl = "!git pull origin $(git rev-parse --abbrev-ref HEAD)"

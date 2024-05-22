@@ -1,0 +1,161 @@
+{
+  // User Preferences
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Catppuccin Mocha",
+  "workbench.activityBar.location": "top",
+  "workbench.startupEditor": "none",
+  "window.titleBarStyle": "custom",
+  "window.commandCenter": false,
+
+  // Editor Settings
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "editor.fontFamily": "'MesloLGS NF', 'Fira Code', 'Cascadia Code', Consolas",
+  "editor.inlineSuggest.enabled": true,
+  "editor.suggestSelection": "first",
+  "editor.linkedEditing": true,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.minimap.enabled": false,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "name": "envKeys",
+        "scope": "string.quoted.single.ini,constant.numeric.ini,string.quoted.double.ini",
+        "settings": {
+          "foreground": "#19354900"
+        }
+      }
+    ]
+  },
+  "files.autoSave": "afterDelay",
+
+  // JavaScript and TypeScript Settings
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+
+  // Git Settings
+  "git.autofetch": true,
+  "git.confirmSync": false,
+
+  // Explorer Settings
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.compactFolders": false,
+
+  // Terminal Settings
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "terminal.integrated.env.windows": {},
+  "terminal.integrated.tabs.enabled": false,
+
+  // Color Customizations
+  "catppuccin.accentColor": "sapphire",
+  "catppuccin.italicKeywords": false,
+  "catppuccin.workbenchMode": "flat",
+  "codesnap.backgroundColor": "#ffffff",
+  "codesnap.boxShadow": "rgba(0, 0, 0, 0.40) 0px 20px 68px",
+
+  // Security and Privacy
+  "security.workspace.trust.untrustedFiles": "open",
+  "redhat.telemetry.enabled": false,
+
+  // Language-specific Settings
+  "[rust]": {
+    "editor.defaultFormatter": "rust-lang.rust-analyzer"
+  },
+  "errorLens.excludeBySource": ["rustc(Click for full compiler diagnostic)"],
+  "postcss.validate": false,
+  "emmet.includeLanguages": {
+    "postcss": "css"
+  },
+  "tailwindCSS.emmetCompletions": true,
+
+  // GitHub Copilot Settings
+  "github.copilot.autocomplete.enable": true,
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": true,
+    "scminput": false,
+    "yaml": false,
+    "javascript": true
+  },
+
+  // Live Share Settings
+  "liveshare.presence": true,
+
+  // Prettier Settings
+  "prettier.semi": false,
+  "prettier.useEditorConfig": false,
+
+  // JSON and Schema Settings
+  "json.schemas": [],
+
+  // VS Code Extensions Settings
+  "liveServer.settings.donotShowInfoMsg": true,
+  "liveServer.settings.donotVerifyTags": true,
+  "liveSassCompile.settings.autoprefix": [],
+  "liveSassCompile.settings.includeItems": [],
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "compressed",
+      "extensionName": ".css",
+      "savePath": "/src/css"
+    }
+  ],
+  "liveSassCompile.settings.showOutputWindowOn": "None",
+  "liveSassCompile.settings.useNewCompiler": true,
+  "livePreview.notifyOnOpenLooseFile": false,
+  "svelte.enable-ts-plugin": true,
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "vsicons.dontShowNewVersionMessage": true,
+  "better-comments.tags": [
+    {
+      "tag": "!",
+      "color": "#FF2D00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "?",
+      "color": "#3498DB",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "//",
+      "color": "#474747",
+      "strikethrough": true,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "todo",
+      "color": "#FF8C00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "*",
+      "color": "#98C379",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "color-highlight.matchWords": true
+}
