@@ -29,3 +29,4 @@
 - [CopyClip](https://fiplab.com/apps/copyclip-for-mac/)
 - [Mos](https://mos.caldis.me/)
 - [IINA](https://iina.io/)
+- [KeyEcho](https://github.com/ZacharyL2/KeyEcho)
